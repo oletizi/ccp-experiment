@@ -4,6 +4,6 @@
 #include <iostream>
 #include "Display.h"
 
-void Display::print(std::string msg) {
+void SerialDisplay::print(std::string msg) {
     std::cout << msg;
 }

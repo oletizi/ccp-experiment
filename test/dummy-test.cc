@@ -5,8 +5,9 @@
 #include "Display.h"
 
 TEST(DummyTestSuite, DummyTest) {
-    auto *d = new Display();
+    Display *d;
+    d = new SerialDisplay();
     EXPECT_NE(d, nullptr);
 
-    d->print("Hello!");
+    d->print("Hello, world!");
 }
