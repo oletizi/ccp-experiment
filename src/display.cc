@@ -4,6 +4,8 @@
 #include <iostream>
 #include "display.h"
 
-void SerialDisplay::print(std::string msg) {
-    std::cout << msg;
+namespace display {
+    void SerialDisplay::print(std::string msg) {
+        std::cout << msg;
+    }
 }
