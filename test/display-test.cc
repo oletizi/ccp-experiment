@@ -10,6 +10,5 @@ namespace display {
         Display *d;
         d = new SerialDisplay();
         EXPECT_NE(d, nullptr);
-        d->print("This test passed.");
     }
 }
