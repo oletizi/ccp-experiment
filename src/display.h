@@ -7,8 +7,7 @@
 
 #include <string>
 
-namespace display {
-
+namespace oletizi::display {
     class Display {
     public:
         virtual void print(std::string msg) = 0;

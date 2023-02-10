@@ -4,8 +4,7 @@
 #include <gtest/gtest.h>
 #include "display.h"
 
-namespace display {
-
+namespace oletizi::display {
     TEST(DisplayTestSuite, TestBasics) {
         Display *d;
         d = new SerialDisplay();
